@@ -1,0 +1,46 @@
+    ul{
+        list-style-type: circle;
+    }
+    .lista2{
+        list-style: square;
+    }
+    
+    ol{
+     list-style: none;
+     padding: 0;
+     border: 2px solid green;   l
+    }
+    ol li{
+        background-color: aqua;
+        padding: 10px;
+        margin-left: 30px; 
+    }
+    
+.lista3{
+    border-left: 10px solid green ;;
+    background-color: blue;
+    list-style-type: none;
+    padding: 15px 25px;
+    font-size: 10px;
+}
+table{
+    border-collapse: collapse;
+}
+td, th{
+    border: 1px solid;
+    color: rgb(224, 144, 23);
+    padding: 15px;
+}
+tbody tr:nth-child(even){
+    background-color: blueviolet;
+}
+tbody tr:nth-child(odd){
+    background-color: brown;
+}
+div{
+    overflow: scroll;
+    background-color: burlywood;
+    width: 200px;
+    height: 200px;
+}
+
