@@ -1,0 +1,26 @@
+
+article ~ p{
+    background-color: purple;
+    color: aliceblue;
+    padding: 20px;
+}
+article + p{
+    background-color: blue;
+}
+input:out-of-range{
+    border: 3px solid;
+}
+span:first-of-type{
+    background: black;
+    color: blanchedalmond;
+    padding: 10px;
+}
+form{
+    margin-top: 20px;
+}
+input:invalid{
+    border: 2px solid;
+}
+input:valid{
+    border: 2px solid green;
+}
