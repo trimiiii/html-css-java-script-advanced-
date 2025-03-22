@@ -1,0 +1,20 @@
+#earth img{
+    transform: scale(1);
+    
+}
+
+#earth:hover{
+    transform: scale(1);
+    transition: .5;
+}
+
+#mars img{
+    transform: scale(1);
+    margin: 0px;
+}
+
+#mars:hover{
+    transition: .3s;
+    margin-left: 100px;
+    filter: blur(3.5);
+}
