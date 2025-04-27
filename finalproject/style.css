@@ -66,5 +66,89 @@
     color: #D4AF37; 
     margin: 0; 
   }
+  h2 {
+    font-family: 'Playfair Display', serif; 
+    font-size: 60px; /
+    letter-spacing: 3px; 
+    color: #D4AF37; 
+    margin: 0; 
+  }
+  body {
+    min-height: 100vh;
+    overflow-y: scroll;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  .fancy-btn {
+    background: linear-gradient(45deg, #3a3a3a 0%, #1f1f1f 100%);
+    color: white;
+    padding: 15px 40px;
+    font-size: 22px;
+    font-weight: bold;
+    border: 2px solid gold;
+    border-radius: 50px;
+    box-shadow: 0 8px 20px rgba(255, 215, 0, 0.2);
+    cursor: pointer;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    transition: all 0.4s ease;
+  }
+  .fancy-btn:hover {
+    background: linear-gradient(45deg, gold 0%, #ffcc00 100%);
+    color: #1a1a1a;
+    box-shadow: 0 12px 24px rgba(255, 215, 0, 0.6);
+    transform: scale(1.05);
+    border-color: white;
+  }
+  .fancy-btn2 {
+    background: linear-gradient(45deg, #3a3a3a 0%, #1f1f1f 100%);
+    color: white;
+    padding: 15px 40px;
+    font-size: 22px;
+    font-weight: bold;
+    border: 2px solid gold;
+    border-radius: 50px;
+    box-shadow: 0 8px 20px rgba(255, 215, 0, 0.2);
+    cursor: pointer;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    transition: all 0.4s ease;
+  }
+  .fancy-btn2:hover {
+    background: linear-gradient(45deg, gold 0%, #ffcc00 100%);
+    color: #1a1a1a;
+    box-shadow: 0 12px 24px rgba(255, 215, 0, 0.6);
+    transform: scale(1.05);
+    border-color: white;
+  }
+  .fancy-btn3 {
+    background: linear-gradient(45deg, #3a3a3a 0%, #1f1f1f 100%);
+    color: white;
+    padding: 15px 40px;
+    font-size: 22px;
+    font-weight: bold;
+    border: 2px solid gold;
+    border-radius: 50px;
+    box-shadow: 0 8px 20px rgba(255, 215, 0, 0.2);
+    cursor: pointer;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    transition: all 0.4s ease;
+  }
+  .fancy-btn3:hover {
+    background: linear-gradient(45deg, gold 0%, #ffcc00 100%);
+    color: #1a1a1a;
+    box-shadow: 0 12px 24px rgba(255, 215, 0, 0.6);
+    transform: scale(1.05);
+    border-color: white;
+  }
+  .button-group {
+    display: flex; 
+    gap: 50px;     
+    justify-content: center; 
+    align-items: center;
+    margin-top: 50px;        
+  }
   
-  
+ 
