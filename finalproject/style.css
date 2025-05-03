@@ -6,15 +6,17 @@
   
   body {
     font-family: 'Open Sans', sans-serif;
-    background: #a19417;
-  }
-  
+    background-image: url(bacground.png);
+    background-size: cover; 
+    background-position: center center; 
+    background-attachment: fixed; 
+}
   .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #1e1e1e;
-    color: rgb(124, 108, 14);
+    color: #f8c146;
     padding: 20px 50px;
     position: sticky;
     top: 0;
@@ -36,7 +38,7 @@
   }
   
   .nav-links a {
-    color: rgb(212, 194, 24);
+    color: #f8c146;
     text-decoration: none;
     position: relative;
     padding: 5px 0;
@@ -61,16 +63,16 @@
   }
   h1 {
     font-family: 'Playfair Display', serif; 
-    font-size: 60px; /
+    font-size: 60px; 
     letter-spacing: 3px; 
-    color: #D4AF37; 
+    color: #e2ad39; 
     margin: 0; 
   }
   h2 {
     font-family: 'Playfair Display', serif; 
-    font-size: 60px; /
+    font-size: 60px; 
     letter-spacing: 3px; 
-    color: #D4AF37; 
+    color: #e2ad39; 
     margin: 0; 
   }
   body {
